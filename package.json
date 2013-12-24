@@ -22,7 +22,7 @@
         }
     ],
     "dependencies": {
-        "es6-transpiler": ">=0.7.3"
+        "es6-transpiler": ">=0.7.4"
     },
     "devDependencies": {
         "grunt-contrib-nodeunit": "~0.2.0",
