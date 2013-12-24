@@ -1,0 +1,40 @@
+{
+    "name": "grunt-es6-transpiler",
+    "version": "0.1.0",
+    "description": "es6 transpiler",
+    "homepage": "https://github.com/termi/grunt-es6-transpiler",
+    "author": {
+        "name": "Egor Khalimonenko",
+        "email": "1+g_es6_t@h123.ru"
+    },
+    "keywords": [
+        "gruntplugin"
+    ],
+    "main": "Gruntfile.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/termi/grunt-es6-transpiler.git"
+    },
+    "bugs": "https://github.com/termi/grunt-es6-transpiler/issues",
+    "licenses": [
+        {
+            "type": "MIT"
+        }
+    ],
+    "dependencies": {
+        "es6-transpiler": ">=0.7.3"
+    },
+    "devDependencies": {
+        "grunt-contrib-nodeunit": "~0.2.0",
+        "grunt-contrib-clean": "~0.5.0"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.1"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "engines": {
+        "node": ">= 0.10.0"
+    }
+}
